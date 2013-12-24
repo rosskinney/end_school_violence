@@ -1,0 +1,29 @@
+%h1 Listing pledges
+
+%table
+  %tr
+    %th First name
+    %th Last name
+    %th Email
+    %th City
+    %th State
+    %th Zip
+    %th
+    %th
+    %th
+
+  - @pledges.each do |pledge|
+    %tr
+      %td= pledge.first_name
+      %td= pledge.last_name
+      %td= pledge.email
+      %td= pledge.city
+      %td= pledge.state
+      %td= pledge.zip
+      %td= link_to 'Show', pledge
+      %td= link_to 'Edit', edit_pledge_path(pledge)
+      %td= link_to 'Destroy', pledge, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Pledge', new_pledge_path

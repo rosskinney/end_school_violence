@@ -1,0 +1,24 @@
+%p#notice= notice
+
+%p
+  %b First name:
+  = @pledge.first_name
+%p
+  %b Last name:
+  = @pledge.last_name
+%p
+  %b Email:
+  = @pledge.email
+%p
+  %b City:
+  = @pledge.city
+%p
+  %b State:
+  = @pledge.state
+%p
+  %b Zip:
+  = @pledge.zip
+
+= link_to 'Edit', edit_pledge_path(@pledge)
+\|
+= link_to 'Back', pledges_path
