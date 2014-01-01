@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+ruby 2.0.0p247
+
 gem 'simple_form', github: 'wtfiwtz/simple_form_bootstrap3'
 
 # Use HAML
