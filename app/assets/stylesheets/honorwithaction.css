@@ -54,38 +54,38 @@ p {
 	color:rgb(4, 50, 39);
 }
 body {
-	background-color:grey;
+	background-color:beige;
 }
 h1, h2, h3, h4{
 	text-align:center;
 	margin-bottom:20px;
 	margin-top:20px;
-	color:black;
+	color:grey;
 }
 h1 {
 	font-size:40px;
 	font-family: 'Lobster', Georgia, Times, serif;
-	color:rgb(4, 50, 39);
+	color:grey;
 }
 
 h2 {
 	font-size:30px;
 	margin-top:50px;
 	font-family: 'Lobster', Georgia, Times, serif;
-	color:rgb(4, 50, 39);
+	
 }
 h3 {
 	font-size:20px;
 	margin-top:50px;
 	font-family: 'Lobster', Georgia, Times, serif;
-	color:rgb(4, 50, 39);
+	
 }
 
 h4 {
 	font-size:15px;
 	margin-top:50px;
 	font-family: 'Lobster', Georgia, Times, serif;
-	color:rgb(4, 50, 39);
+	
 }
 
 a#active { color: blue; }
