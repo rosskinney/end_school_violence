@@ -3,7 +3,7 @@
 %table
   %tr
     %th Title
-    %th Body
+    %th 
     %th Author
     %th
     %th
@@ -12,7 +12,7 @@
   - @forums.each do |forum|
     %tr
       %td= forum.title
-      %td= forum.body
+      / %td= truncate forum.body, length: 100
       %td= forum.author
       %td= link_to 'Show', forum
       / %td= link_to 'Edit', edit_forum_path(forum)
@@ -21,3 +21,4 @@
 / %br
 
 / = link_to 'New Forum', new_forum_path
+

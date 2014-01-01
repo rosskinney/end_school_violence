@@ -49,7 +49,7 @@ table {
 p {
 	margin-top:6px;
 	margin-bottom:6px;
-	text-align:center;
+	/*text-align:center;*/
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
 	color:rgb(4, 50, 39);
 }
@@ -87,4 +87,6 @@ h4 {
 	font-family: 'Lobster', Georgia, Times, serif;
 	color:rgb(4, 50, 39);
 }
+
+a#active { color: blue; }
 
