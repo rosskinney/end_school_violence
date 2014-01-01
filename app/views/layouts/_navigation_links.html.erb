@@ -1,4 +1,12 @@
 <%# add navigation links to this file %>
-<li><a href="/pledges.html">Sign the Pledge</a></li>
-<li><a href="/about.html">About</a></li>
-<li><a href="/contact.html">Contact</a></li>
+<li><a href="/pledges/new.html">Sign the Pledge</a></li>
+<li><a href="/static_pages/about.html">About</a></li>
+<li><a href="/forums.html">Forum</a></li>
+
+<% if user_signed_in? %>
+        
+  <li><%= link_to 'Logout', destroy_user_session_path, :method=>'delete' %></li>
+  <li><%= link_to 'Create Topic', new_forum_path %></li>
+
+<% end %>
+

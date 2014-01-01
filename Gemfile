@@ -8,6 +8,7 @@ gem 'simple_form', github: 'wtfiwtz/simple_form_bootstrap3'
 # Use HAML
 gem 'haml-rails'
 gem 'haml'
+gem 'devise'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
